@@ -1,93 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Cow Bay Looker – Special Investigation</title>
-  <style>
-    body {
-      background-color: black;
-      color: #c2b280;
-      font-family: "Courier New", Courier, monospace;
-      padding: 20px;
-      background-image: url('https://www.transparenttextures.com/patterns/old-wallpaper.png');
-      background-repeat: repeat;
-    }
-    a {
-      color: red;
-      text-decoration: none;
-      transition: all 0.2s ease-in-out;
-    }
-    a:hover {
-      text-decoration: underline;
-      transform: rotate(-1deg) scale(1.02);
-      color: #ff0000;
-    }
-    .header {
-      font-size: 36px;
-      text-align: center;
-      margin-bottom: 5px;
-      text-shadow: 0 0 5px red;
-    }
-    .tagline {
-      text-align: center;
-      font-size: 18px;
-      color: #a00;
-      margin-top: -10px;
-      margin-bottom: 20px;
-    }
-    .nav {
-      display: none;
-    }
-    .report, .page {
-      border: 1px dashed #c2b280;
-      padding: 15px;
-      margin-bottom: 20px;
-      background-color: #111;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 50px;
-      color: gray;
-      font-size: 12px;
-    }
-    .footer p:last-child {
-      font-size: 11px;
-      color: #662222;
-    }
-    .byline {
-      font-style: italic;
-      color: gray;
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-    .typewriter {
-      display: inline-block;
-      border-right: 3px solid red;
-      padding-right: 2px;
-      white-space: nowrap;
-      overflow: hidden;
-      animation: typing 2s steps(30) 1s 1 normal both, blink-caret .75s step-end infinite;
-    }
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-    @keyframes blink-caret {
-      from, to { border-color: transparent; }
-      50% { border-color: red; }
-    }
-    .user-counter {
-      text-align: center;
-      font-size: 14px;
-      color: #888;
-      margin-bottom: 10px;
-    }
-    .headline {
-      font-size: 22px;
-      color: #f44;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/styles.css">
   <script>
     function generateFakeUserCount() {
       const base = 2 + Math.floor(Math.random() * 5);
@@ -161,38 +78,10 @@ Note: Tape recordings erased. One apple tree found bleeding.
     <p><strong>Unnamed Family Member (redacted):</strong> "I kept one page of his notebook. Just one. It hums. No matter where I hide it, I hear it at night."</p>
   </div>
 
-  <div class="page" id="notebook">
-    <h2>Notebook Fragments – Peter Mosher</h2>
-    <p><strong>Entry dated October 4, 1902:</strong> "The Looker watches from the salt grass. My sketches no longer stay where I leave them. Something folds the corners... something reads."</p>
-    <p><strong>Entry dated December 29, 1903:</strong> "He does not knock. He <em>leans</em>. He leans and waits until the air turns cold and time folds sideways."</p>
-    <p><strong>Undated page (burned edges):</strong> "If I stare at the mirror long enough, the reflection twitches. It blinks when I don’t."</p>
-  </div>
-
-  <div class="page" id="townrumors">
-    <h2>Collected Town Rumors</h2>
-    <p>⟟ The old woman at Hollow Bend claimed her daughter vanished after singing by the window past midnight.</p>
-    <p>⟟ A man named Curtis swore he locked every door and shutter — but still found rope fibers on his pillow.</p>
-    <p>⟟ Locals say if you whisper “who’s looking” into the dark three times, your window latch loosens on its own.</p>
-  </div>
-
-  <div class="page" id="archives">
-    <h2>Unpublished Archives (Classified)</h2>
-    <p><strong>Document 11-A:</strong> Transcription from Peter Mosher's final notebook. Mentions "a name unspoken" and repeated sketches of a wide-brimmed hat.</p>
-    <p><strong>Scrapbook Page 4:</strong> Map of Cow Bay with certain trees circled. Caption reads: "These ones whisper back."</p>
-  </div>
-
-  <div class="page" id="sightings">
-    <h2>Live Sighting Reports</h2>
-    <ul>
-      <li>[April 12, 1921] – "Light from barn flickered. Saw shadow move against moon. Heard rope dragging."</li>
-      <li>[June 3, 1922] – "Awoke to cold air. Window open. Hat on floor, not mine."</li>
-      <li>[March 9, 1923] – "Dog barked, then whimpered. Found curled up in corner, ears bleeding. No explanation."</li>
-    </ul>
-  </div>
-
   <div class="footer">
     <p>© 1900–1923 | Unauthorized Access Logged | Special Investigative Records</p>
     <p>"If you're reading this, he already knows."</p>
   </div>
 </body>
 </html>
+
